@@ -7,3 +7,9 @@ else:
     print("I an inside else")
 
    
+for i in range(5):
+    print(i)
+    # break
+    continue
+else:
+    print("Loop is over")

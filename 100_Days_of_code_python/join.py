@@ -13,3 +13,9 @@ my_list = my_string.split(" ", maxsplit=1)
 print(my_list)
 
 
+print("\n\n\n")
+from import_module import *
+
+# Using sin without any prefix
+result = sin(45)
+print(result)
