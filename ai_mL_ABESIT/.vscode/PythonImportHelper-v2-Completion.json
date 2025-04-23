@@ -1,20 +1,82 @@
 [
     {
-        "label": "numpy",
-        "kind": 6,
+        "label": "load_breast_cancer",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
         "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
+        "detail": "sklearn.datasets",
         "documentation": {}
     },
     {
-        "label": "pandas",
-        "kind": 6,
+        "label": "make_regression",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
         "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "make_classification",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
+        "isExtraImport": true,
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "LogisticRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "Lasso",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "Ridge",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "LogisticRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
         "documentation": {}
     },
     {
@@ -24,6 +86,46 @@
         "importPath": "matplotlib.pyplot",
         "description": "matplotlib.pyplot",
         "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_curve",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_auc_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "ConfusionMatrixDisplay",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
         "documentation": {}
     },
     {
@@ -123,6 +225,24 @@
         "documentation": {}
     },
     {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
         "label": "pearsonr",
         "importPath": "scipy.stats",
         "description": "scipy.stats",
@@ -131,67 +251,47 @@
         "documentation": {}
     },
     {
-        "label": "Lasso",
-        "importPath": "sklearn.linear_model",
-        "description": "sklearn.linear_model",
-        "isExtraImport": true,
-        "detail": "sklearn.linear_model",
-        "documentation": {}
-    },
-    {
-        "label": "Ridge",
-        "importPath": "sklearn.linear_model",
-        "description": "sklearn.linear_model",
-        "isExtraImport": true,
-        "detail": "sklearn.linear_model",
-        "documentation": {}
-    },
-    {
-        "label": "LogisticRegression",
-        "importPath": "sklearn.linear_model",
-        "description": "sklearn.linear_model",
-        "isExtraImport": true,
-        "detail": "sklearn.linear_model",
-        "documentation": {}
-    },
-    {
-        "label": "train_test_split",
-        "importPath": "sklearn.model_selection",
-        "description": "sklearn.model_selection",
-        "isExtraImport": true,
-        "detail": "sklearn.model_selection",
-        "documentation": {}
-    },
-    {
-        "label": "train_test_split",
-        "importPath": "sklearn.model_selection",
-        "description": "sklearn.model_selection",
-        "isExtraImport": true,
-        "detail": "sklearn.model_selection",
-        "documentation": {}
-    },
-    {
-        "label": "make_regression",
-        "importPath": "sklearn.datasets",
-        "description": "sklearn.datasets",
-        "isExtraImport": true,
-        "detail": "sklearn.datasets",
-        "documentation": {}
-    },
-    {
-        "label": "make_classification",
-        "importPath": "sklearn.datasets",
-        "description": "sklearn.datasets",
-        "isExtraImport": true,
-        "detail": "sklearn.datasets",
-        "documentation": {}
-    },
-    {
         "label": "VarianceThreshold",
         "importPath": "sklearn.feature_selection",
         "description": "sklearn.feature_selection",
         "isExtraImport": true,
         "detail": "sklearn.feature_selection",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "AI-ML-Tutorial.breast_cancer",
+        "description": "AI-ML-Tutorial.breast_cancer",
+        "peekOfCode": "data = load_breast_cancer()\nX = data.data \ny = data.target \nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)\nmodel=LogisticRegression(max_iter=10000)\nmodel.fit(X_train,y_train)\ny_pred= model.predict(X_test)\nprint(y_pred)\n# Evaluation Metrics\ny_prob=model.predict_proba(X_test)[:, 1]",
+        "detail": "AI-ML-Tutorial.breast_cancer",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "AI-ML-Tutorial.breast_cancer",
+        "description": "AI-ML-Tutorial.breast_cancer",
+        "peekOfCode": "X = data.data \ny = data.target \nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)\nmodel=LogisticRegression(max_iter=10000)\nmodel.fit(X_train,y_train)\ny_pred= model.predict(X_test)\nprint(y_pred)\n# Evaluation Metrics\ny_prob=model.predict_proba(X_test)[:, 1]\nprint(classification_report(y_test,y_pred))",
+        "detail": "AI-ML-Tutorial.breast_cancer",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "AI-ML-Tutorial.breast_cancer",
+        "description": "AI-ML-Tutorial.breast_cancer",
+        "peekOfCode": "y = data.target \nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)\nmodel=LogisticRegression(max_iter=10000)\nmodel.fit(X_train,y_train)\ny_pred= model.predict(X_test)\nprint(y_pred)\n# Evaluation Metrics\ny_prob=model.predict_proba(X_test)[:, 1]\nprint(classification_report(y_test,y_pred))\n# Confusion Matrix",
+        "detail": "AI-ML-Tutorial.breast_cancer",
+        "documentation": {}
+    },
+    {
+        "label": "auc_score",
+        "kind": 5,
+        "importPath": "AI-ML-Tutorial.breast_cancer",
+        "description": "AI-ML-Tutorial.breast_cancer",
+        "peekOfCode": "auc_score = roc_auc_score(y_test, y_prob)\nplt.figure()\nplt.plot(fpr, tpr, color='darkorange', lw=2, label=f'ROC curve (AUC = {auc_score:.2f})')\nplt.plot([0, 1], [0, 1], color='navy', linestyle='--')\nplt.xlabel(\"False Positive Rate\")\nplt.ylabel(\"True Positive Rate\")\nplt.title(\"Receiver Operating Characteristic\")\nplt.legend(loc=\"lower right\")\nplt.grid()\nplt.show()",
+        "detail": "AI-ML-Tutorial.breast_cancer",
         "documentation": {}
     },
     {
@@ -309,6 +409,15 @@
         "description": "AI-ML-Tutorial.Linear_Regression",
         "peekOfCode": "def main():\n    n = int(input(\"Enter number of data points: \"))\n    x = []\n    y = []\n    for i in range(n):\n        xi = float(input(f\"Enter x[{i+1}]: \"))\n        x.append(xi)\n        yi = float(input(f\"Enter y[{i+1}]: \"))\n        y.append(yi)\n    m, c = M_C(x, y, n)",
         "detail": "AI-ML-Tutorial.Linear_Regression",
+        "documentation": {}
+    },
+    {
+        "label": "auc_score",
+        "kind": 5,
+        "importPath": "AI-ML-Tutorial.Logistic_Regression",
+        "description": "AI-ML-Tutorial.Logistic_Regression",
+        "peekOfCode": "auc_score = roc_auc_score(y_test, y_prob)\nplt.figure()\nplt.plot(fpr, tpr, color='darkorange', lw=2, label=f'ROC curve (AUC = {auc_score:.2f})')\nplt.plot([0, 1], [0, 1], color='navy', linestyle='--')\nplt.xlabel(\"False Positive Rate\")\nplt.ylabel(\"True Positive Rate\")\nplt.title(\"Receiver Operating Characteristic\")\nplt.legend(loc=\"lower right\")\nplt.grid()\nplt.show()",
+        "detail": "AI-ML-Tutorial.Logistic_Regression",
         "documentation": {}
     },
     {
