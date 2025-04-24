@@ -302,6 +302,31 @@
         "documentation": {}
     },
     {
+        "label": "DecisionTreeClassifier",
+        "importPath": "sklearn.tree",
+        "description": "sklearn.tree",
+        "isExtraImport": true,
+        "detail": "sklearn.tree",
+        "documentation": {}
+    },
+    {
+        "label": "export_graphviz",
+        "importPath": "sklearn.tree",
+        "description": "sklearn.tree",
+        "isExtraImport": true,
+        "detail": "sklearn.tree",
+        "documentation": {}
+    },
+    {
+        "label": "graphviz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "graphviz",
+        "description": "graphviz",
+        "detail": "graphviz",
+        "documentation": {}
+    },
+    {
         "label": "VarianceThreshold",
         "importPath": "sklearn.feature_selection",
         "description": "sklearn.feature_selection",
@@ -1179,6 +1204,69 @@
         "description": "ai_mL_ABESIT.AI-ML-Tutorial.Error_bysklearn",
         "peekOfCode": "df_results = pd.DataFrame(results)\nprint(df_results)",
         "detail": "ai_mL_ABESIT.AI-ML-Tutorial.Error_bysklearn",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "description": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "peekOfCode": "X = [\n    [1, 1, 0],  # Cloudy, Rain forecast\n    [1, 0, 1],  # Cloudy, No rain, Long walk\n    [0, 1, 1],  # Not cloudy, Rain forecast\n    [0, 0, 0],  # Clear and dry\n]\ny = [1, 1, 1, 0]  # 1 = Bring umbrella, 0 = Don't bring\n# Feature and target names\nfeature_names = ['Cloudy', 'RainForecast', 'LongWalk']\ntarget_names = ['No', 'Yes']",
+        "detail": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "description": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "peekOfCode": "y = [1, 1, 1, 0]  # 1 = Bring umbrella, 0 = Don't bring\n# Feature and target names\nfeature_names = ['Cloudy', 'RainForecast', 'LongWalk']\ntarget_names = ['No', 'Yes']\n# Train model\nclf = DecisionTreeClassifier()\nclf.fit(X, y)\n# Export as DOT file and render\ndot_data = export_graphviz(\n    clf,",
+        "detail": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "documentation": {}
+    },
+    {
+        "label": "feature_names",
+        "kind": 5,
+        "importPath": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "description": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "peekOfCode": "feature_names = ['Cloudy', 'RainForecast', 'LongWalk']\ntarget_names = ['No', 'Yes']\n# Train model\nclf = DecisionTreeClassifier()\nclf.fit(X, y)\n# Export as DOT file and render\ndot_data = export_graphviz(\n    clf,\n    out_file=None,\n    feature_names=feature_names,",
+        "detail": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "documentation": {}
+    },
+    {
+        "label": "target_names",
+        "kind": 5,
+        "importPath": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "description": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "peekOfCode": "target_names = ['No', 'Yes']\n# Train model\nclf = DecisionTreeClassifier()\nclf.fit(X, y)\n# Export as DOT file and render\ndot_data = export_graphviz(\n    clf,\n    out_file=None,\n    feature_names=feature_names,\n    class_names=target_names,",
+        "detail": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "documentation": {}
+    },
+    {
+        "label": "clf",
+        "kind": 5,
+        "importPath": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "description": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "peekOfCode": "clf = DecisionTreeClassifier()\nclf.fit(X, y)\n# Export as DOT file and render\ndot_data = export_graphviz(\n    clf,\n    out_file=None,\n    feature_names=feature_names,\n    class_names=target_names,\n    filled=True,\n    rounded=True,",
+        "detail": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "documentation": {}
+    },
+    {
+        "label": "dot_data",
+        "kind": 5,
+        "importPath": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "description": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "peekOfCode": "dot_data = export_graphviz(\n    clf,\n    out_file=None,\n    feature_names=feature_names,\n    class_names=target_names,\n    filled=True,\n    rounded=True,\n    special_characters=True\n)\ngraph = graphviz.Source(dot_data)",
+        "detail": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "documentation": {}
+    },
+    {
+        "label": "graph",
+        "kind": 5,
+        "importPath": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "description": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
+        "peekOfCode": "graph = graphviz.Source(dot_data)\ngraph.render(\"umbrella_decision_tree\", format=\"png\", cleanup=True)  # Saves as umbrella_decision_tree.png\ngraph.view()  # Opens the image file",
+        "detail": "ai_mL_ABESIT.AI-ML-Tutorial.graphviz",
         "documentation": {}
     },
     {
